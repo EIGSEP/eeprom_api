@@ -109,14 +109,27 @@ bool at28bv64b_read_buf(const at28bv64b_t *dev, uint16_t addr,
 
 /* ── Write internals ────────────────────────────────────────────────── */
 
-/* Poll D7 until it matches bit 7 of the last written byte (Data Polling).
- * Returns false on timeout (write failed or no EEPROM connected). */
+/* Two-phase Data Polling per AT28BV64B spec:
+ *   Phase 1 (busy):    EEPROM drives D7 = complement of the written byte's D7
+ *   Phase 2 (done):    EEPROM drives D7 = written byte's D7
+ *
+ * We require both phases to occur in sequence.  Without hardware, the data
+ * bus is held LOW by the pull-down and can never produce the correct two-
+ * phase transition, so poll_write_complete correctly times out.
+ *
+ * The 100 µs initial wait lets any residual charge on the PCB/breadboard
+ * trace drain through the pull-down before the first read. */
 static bool poll_write_complete(const at28bv64b_t *dev,
                                  uint16_t addr, uint8_t written) {
-    uint8_t d7_expected = written & 0x80;
-    absolute_time_t deadline = make_timeout_time_us(POLL_TIMEOUT_US);
+    uint8_t d7_done = written & 0x80;
+    uint8_t d7_busy = (~written) & 0x80;   /* complement: what EEPROM drives while busy */
+    bool saw_busy = false;
+
     set_data_in(dev);
     set_address(dev, addr);
+    busy_wait_us_32(100);   /* discharge breadboard capacitance through pull-down */
+
+    absolute_time_t deadline = make_timeout_time_us(POLL_TIMEOUT_US);
     while (!time_reached(deadline)) {
         gpio_put(dev->ce_pin, 0);
         gpio_put(dev->oe_pin, 0);
@@ -124,7 +137,11 @@ static bool poll_write_complete(const at28bv64b_t *dev,
         uint8_t d = read_data(dev);
         gpio_put(dev->oe_pin, 1);
         gpio_put(dev->ce_pin, 1);
-        if ((d & 0x80) == d7_expected) return true;
+
+        if (!saw_busy && (d & 0x80) == d7_busy)
+            saw_busy = true;
+        if (saw_busy && (d & 0x80) == d7_done)
+            return true;
     }
     return false;
 }
