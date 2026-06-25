@@ -1,17 +1,30 @@
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
+#include "pico/time.h"
+#include "hardware/gpio.h"
 #include "at28bv64b.h"
 
 /*
  * On-device test suite for AT28BV64B.
  *
- * Flash test_eeprom.uf2, then open a USB serial terminal:
+ * The onboard LED blinks at ~1 Hz throughout execution so you can confirm
+ * the firmware is running without a serial terminal.
+ *
+ * Flash test_eeprom.uf2, then open a USB serial terminal for detailed output:
  *   macOS/Linux: minicom -D /dev/tty.usbmodem*  (or screen, picocom)
  *   Windows:     PuTTY, baud 115200
  *
  * All tests print [PASS] or [FAIL].
  */
+
+/* ── LED heartbeat (1 Hz, non-blocking) ─────────────────────────────── */
+
+static bool led_blink_cb(struct repeating_timer *t) {
+    (void)t;
+    gpio_xor_mask(1u << PICO_DEFAULT_LED_PIN);
+    return true;  /* keep repeating */
+}
 
 static at28bv64b_t dev = {
     .addr_base   = 0,
@@ -97,6 +110,15 @@ static void test_sdp(void) {
 
 int main(void) {
     stdio_init_all();
+
+    /* Start LED heartbeat before anything else so the blink is visible
+     * even if the serial terminal is not connected.
+     * Timer fires every 500 ms → LED toggles at 1 Hz. */
+    gpio_init(PICO_DEFAULT_LED_PIN);
+    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+    struct repeating_timer led_timer;
+    add_repeating_timer_ms(500, led_blink_cb, NULL, &led_timer);
+
     sleep_ms(2000);  /* wait for USB CDC enumeration on host */
 
     printf("\n=== AT28BV64B Test Suite ===\n");
