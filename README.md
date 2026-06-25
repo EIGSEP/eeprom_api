@@ -141,9 +141,13 @@ Or use any other USB serial terminal (screen, picocom, PuTTY on Windows).
 | D0–D7 | Data bus | GPIO 13–20 |
 | /CE | Chip Enable | GPIO 21 |
 | /OE | Output Enable | GPIO 22 |
-| /WE | Write Enable | GPIO 23 |
+| /WE | Write Enable | GPIO 26 |
 | VCC | Power | **See note** |
 | GND | Ground | GND |
+
+> **GPIO note:** GPIO 23, 24, and 25 are internal on Pico 2 (power management and
+> onboard LED) and are not available on the header. /WE is therefore wired to
+> GPIO 26 (physical pin 31), which is the next available GPIO after 22.
 
 > **Voltage note:** The AT28BV64B is rated for 5 V. Address and control lines driven
 > at 3.3 V satisfy its VIH ≥ 2.2 V requirement and need no level shifting.
@@ -239,7 +243,7 @@ at28bv64b_t dev = {
     .data_base   = 13,   // D0 on GPIO 13, …, D7 on GPIO 20
     .ce_pin      = 21,
     .oe_pin      = 22,
-    .we_pin      = 23,
+    .we_pin      = 26,
     .sdp_enabled = false,
 };
 

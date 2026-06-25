@@ -31,7 +31,7 @@ static at28bv64b_t dev = {
     .data_base   = 13,
     .ce_pin      = 21,
     .oe_pin      = 22,
-    .we_pin      = 23,
+    .we_pin      = 26,
     .sdp_enabled = false,
 };
 

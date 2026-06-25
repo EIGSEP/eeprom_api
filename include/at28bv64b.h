@@ -22,7 +22,7 @@ typedef unsigned int uint;
  *   data_base = 13  → D0–D7  on GPIO 13–20
  *   ce_pin    = 21  → /CE
  *   oe_pin    = 22  → /OE
- *   we_pin    = 23  → /WE
+ *   we_pin    = 26  → /WE  (GPIO 23–25 are internal on Pico 2)
  *
  * The EEPROM is rated for 5 V. Address and control lines driven by the
  * Pico at 3.3 V satisfy VIH ≥ 2.2 V and need no level shifting.
