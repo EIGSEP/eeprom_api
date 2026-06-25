@@ -37,6 +37,11 @@ static inline void set_data_out(const at28bv64b_t *dev, uint8_t data) {
 }
 
 static inline void set_data_in(const at28bv64b_t *dev) {
+    /* Clear the output latch before releasing the bus to input.
+     * Without this, floating pins retain the last driven voltage through
+     * the Schmitt trigger long enough for an immediate read to return the
+     * driven value — causing poll_write_complete to pass with no EEPROM. */
+    gpio_put_masked(data_mask(dev), 0u);
     gpio_set_dir_masked(data_mask(dev), 0u);
 }
 
