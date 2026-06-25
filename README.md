@@ -310,7 +310,7 @@ minicom -D /dev/ttyACM0
 minicom -D /dev/tty.usbmodem*
 ```
 
-Expected output (all EEPROM operations working correctly):
+**With EEPROM connected (all tests pass):**
 
 ```
 === AT28BV64B Test Suite ===
@@ -335,6 +335,38 @@ Expected output (all EEPROM operations working correctly):
 [PASS] read_byte after SDP disable
 === Done ===
 ```
+
+**Without EEPROM connected (expected partial failure):**
+
+```
+=== AT28BV64B Test Suite ===
+[PASS] init returns true
+[FAIL] write_byte 0xA5
+[FAIL] read_byte 0xA5
+[FAIL] write_byte 0x00
+[PASS] read_byte 0x00
+[FAIL] write_buf 64B
+[PASS] read_buf 64B
+[FAIL] buf content match
+[FAIL] write 128B across page boundary
+[PASS] read 128B
+[FAIL] page boundary content match
+[PASS] write_page rejects len=0
+[PASS] write_page rejects len=65
+[PASS] write_page rejects cross-page
+[PASS] write_buf rejects overflow
+[FAIL] write_byte with SDP
+[FAIL] read_byte after SDP write
+[FAIL] write_byte after SDP disable
+[FAIL] read_byte after SDP disable
+=== Done ===
+```
+
+The PASSes without hardware are expected:
+- `init returns true` — GPIO initialisation does not require an external device.
+- `write_page rejects *`, `write_buf rejects overflow` — argument validation runs before any bus activity.
+- `read_buf 64B`, `read 128B` — these functions return `true` to indicate no address overflow; content correctness is checked by the separate `buf content match` / `page boundary content match` tests, which correctly fail.
+- `read_byte 0x00` — the pull-down resistors on the data lines happen to read `0x00`, which matches the expected value; this is an unavoidable false positive for a zero-value read with no hardware present.
 
 ### Logic analyser (optional)
 
