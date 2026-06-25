@@ -12,10 +12,10 @@ pico-sdk requires both `arm-none-eabi-gcc` **and** `arm-none-eabi-g++` (version 
 **Linux x86_64 / aarch64 (Debian/Ubuntu)**
 ```bash
 sudo apt update
-sudo apt install gcc-arm-none-eabi g++-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
+sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
 ```
 
-> On Ubuntu 22.04+ the `gcc-arm-none-eabi` package already bundles `arm-none-eabi-g++`, but listing `g++-arm-none-eabi` explicitly ensures it is installed on all Debian-based distributions.
+> On Debian/Ubuntu the `gcc-arm-none-eabi` package bundles both `arm-none-eabi-gcc` and `arm-none-eabi-g++`. There is no separate `g++-arm-none-eabi` package.
 
 **macOS**
 ```bash
