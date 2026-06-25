@@ -38,17 +38,48 @@ sudo apt install cmake
 brew install cmake
 ```
 
-### 3. Python 3 and Git
+### 3. Python 3 (via uv) and Git
 
-Required by pico-sdk build scripts.
+pico-sdk requires Python 3 during CMake configuration. Use [uv](https://github.com/astral-sh/uv) to manage the Python version.
 
-**Linux**
+**Install uv**
+
 ```bash
-sudo apt install python3 git
+# Linux / macOS
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-**macOS**  
-Both are available by default (or via Homebrew).
+Or on macOS via Homebrew:
+```bash
+brew install uv
+```
+
+**Install Python and create a project environment**
+
+```bash
+# In the repository root
+uv python install 3.12
+uv venv --python 3.12
+```
+
+This creates a `.venv/` directory. Activate it before building so that `python3` is available in PATH for CMake and pico-sdk scripts:
+
+```bash
+# Linux / macOS
+source .venv/bin/activate
+```
+
+The prompt changes to `(.venv) $`. Keep this shell active for all build steps below.
+
+**Install Git**
+
+```bash
+# Linux
+sudo apt install git
+
+# macOS — included with Xcode Command Line Tools
+xcode-select --install
+```
 
 ### 4. pico-sdk ≥ 2.0.0
 
@@ -112,14 +143,20 @@ The pin mapping is fully configurable via the `at28bv64b_t` struct — see API u
 The project produces a static library (`libat28bv64b.a`) that another CMake-based
 Pico project can link against.
 
-### Step 1 — Configure
+### Step 1 — Activate the Python environment
+
+```bash
+source .venv/bin/activate   # required so CMake can find python3
+```
+
+### Step 2 — Configure
 
 ```bash
 mkdir build && cd build
 cmake .. -DPICO_BOARD=pico2
 ```
 
-### Step 2 — Build the library only
+### Step 3 — Build the library only
 
 ```bash
 make at28bv64b
@@ -213,6 +250,7 @@ real hardware and prints results over USB CDC (virtual serial port).
 ### Build the test binary
 
 ```bash
+source .venv/bin/activate   # if not already active
 mkdir build && cd build
 cmake .. -DPICO_BOARD=pico2
 make test_eeprom
