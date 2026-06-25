@@ -32,7 +32,21 @@ arm-none-eabi-g++ --version   # arm-none-eabi-g++ 13.x.x ...
 
 If either command returns `command not found`, the toolchain is not in PATH — re-run the install step or check `echo $PATH`.
 
-### 2. CMake ≥ 3.13
+### 2. Native build toolchain
+
+pico-sdk builds `picotool` as a host-side binary during compilation. This requires a **native** C/C++ compiler on the build machine (separate from the ARM cross-compiler).
+
+**Linux x86_64 / aarch64 (Debian/Ubuntu)**
+```bash
+sudo apt install build-essential
+```
+
+**macOS** — Xcode Command Line Tools already provide `clang++`:
+```bash
+xcode-select --install
+```
+
+### 3. CMake ≥ 3.13
 
 **Linux**
 ```bash
@@ -44,7 +58,7 @@ sudo apt install cmake
 brew install cmake
 ```
 
-### 3. Python 3 (via uv) and Git
+### 4. Python 3 (via uv) and Git
 
 pico-sdk requires Python 3 during CMake configuration. Use [uv](https://github.com/astral-sh/uv) to manage the Python version.
 
