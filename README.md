@@ -7,24 +7,30 @@ C library for reading and writing the AT28BV64B-20JU-T parallel EEPROM
 
 ### 1. ARM cross-compiler
 
-The pico-sdk requires `arm-none-eabi-gcc` 10 or later. Version 13/14 is recommended.
+pico-sdk requires both `arm-none-eabi-gcc` **and** `arm-none-eabi-g++` (version 10+, 13/14 recommended). Even for a pure-C project, the SDK's own internals use C++, so the C++ frontend must be present or CMake will abort with `No CMAKE_CXX_COMPILER could be found`.
 
 **Linux x86_64 / aarch64 (Debian/Ubuntu)**
 ```bash
 sudo apt update
-sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
+sudo apt install gcc-arm-none-eabi g++-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
 ```
+
+> On Ubuntu 22.04+ the `gcc-arm-none-eabi` package already bundles `arm-none-eabi-g++`, but listing `g++-arm-none-eabi` explicitly ensures it is installed on all Debian-based distributions.
 
 **macOS**
 ```bash
 brew install gcc-arm-embedded
 ```
 
-Verify:
+The Homebrew cask installs the complete toolchain (gcc + g++ + binutils).
+
+Verify both compilers are available:
 ```bash
-arm-none-eabi-gcc --version
-# arm-none-eabi-gcc 13.x.x ...
+arm-none-eabi-gcc --version   # arm-none-eabi-gcc 13.x.x ...
+arm-none-eabi-g++ --version   # arm-none-eabi-g++ 13.x.x ...
 ```
+
+If either command returns `command not found`, the toolchain is not in PATH — re-run the install step or check `echo $PATH`.
 
 ### 2. CMake ≥ 3.13
 
