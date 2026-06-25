@@ -238,9 +238,11 @@ target_link_libraries(my_app at28bv64b)
 #include "at28bv64b.h"
 
 // 1. Declare and initialise a device (use your actual GPIO numbers)
+//    Each entry maps EEPROM bit N → the GPIO pin it is wired to.
+//    Pins do not need to be consecutive; any GPIO can be used.
 at28bv64b_t dev = {
-    .addr_base   = 0,    // A0 on GPIO 0, A1 on GPIO 1, …, A12 on GPIO 12
-    .data_base   = 13,   // D0 on GPIO 13, …, D7 on GPIO 20
+    .addr_pins   = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12},
+    .data_pins   = {13, 14, 15, 16, 17, 18, 19, 20},
     .ce_pin      = 21,
     .oe_pin      = 22,
     .we_pin      = 26,

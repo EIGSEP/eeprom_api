@@ -17,12 +17,17 @@ typedef unsigned int uint;
 /*
  * Pin configuration for one AT28BV64B device.
  *
- * Default wiring:
- *   addr_base = 0   → A0–A12 on GPIO 0–12
- *   data_base = 13  → D0–D7  on GPIO 13–20
- *   ce_pin    = 21  → /CE
- *   oe_pin    = 22  → /OE
- *   we_pin    = 26  → /WE  (GPIO 23–25 are internal on Pico 2)
+ * Each address and data line is mapped individually, so any GPIO can be
+ * connected to any EEPROM pin.  The arrays are ordered by EEPROM bit
+ * significance: addr_pins[0] → A0, addr_pins[1] → A1, …, addr_pins[12] → A12;
+ * data_pins[0] → D0, …, data_pins[7] → D7.
+ *
+ * Default wiring (consecutive GPIOs, Pico 2):
+ *   addr_pins = {0,1,2,3,4,5,6,7,8,9,10,11,12}  → A0–A12 on GPIO 0–12
+ *   data_pins = {13,14,15,16,17,18,19,20}         → D0–D7  on GPIO 13–20
+ *   ce_pin    = 21   → /CE
+ *   oe_pin    = 22   → /OE
+ *   we_pin    = 26   → /WE  (GPIO 23–25 are internal on Pico 2)
  *
  * The EEPROM is rated for 5 V. Address and control lines driven by the
  * Pico at 3.3 V satisfy VIH ≥ 2.2 V and need no level shifting.
@@ -31,12 +36,12 @@ typedef unsigned int uint;
  * power the EEPROM from 3.3 V for prototype use.
  */
 typedef struct {
-    uint addr_base;   /* GPIO of A0; A0–A12 occupy addr_base … addr_base+12 */
-    uint data_base;   /* GPIO of D0; D0–D7  occupy data_base … data_base+7  */
-    uint ce_pin;      /* /CE — active low */
-    uint oe_pin;      /* /OE — active low */
-    uint we_pin;      /* /WE — active low */
-    bool sdp_enabled; /* true when Software Data Protection is active on chip */
+    uint addr_pins[13]; /* GPIO for A0–A12; index = address bit position */
+    uint data_pins[8];  /* GPIO for D0–D7;  index = data bit position    */
+    uint ce_pin;        /* /CE — active low */
+    uint oe_pin;        /* /OE — active low */
+    uint we_pin;        /* /WE — active low */
+    bool sdp_enabled;   /* true when Software Data Protection is active on chip */
 } at28bv64b_t;
 
 /* Configure GPIO pins. Call once before any other function. */

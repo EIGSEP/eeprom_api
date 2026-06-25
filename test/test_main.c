@@ -27,8 +27,8 @@ static bool led_blink_cb(struct repeating_timer *t) {
 }
 
 static at28bv64b_t dev = {
-    .addr_base   = 0,
-    .data_base   = 13,
+    .addr_pins   = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12},
+    .data_pins   = {13, 14, 15, 16, 17, 18, 19, 20},
     .ce_pin      = 21,
     .oe_pin      = 22,
     .we_pin      = 26,

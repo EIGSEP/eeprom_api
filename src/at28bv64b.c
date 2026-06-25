@@ -19,48 +19,65 @@
 /* ── Static bus helpers ─────────────────────────────────────────────── */
 
 static inline uint32_t addr_mask(const at28bv64b_t *dev) {
-    return (uint32_t)0x1FFF << dev->addr_base;
+    uint32_t m = 0;
+    for (int i = 0; i < 13; i++) m |= (1u << dev->addr_pins[i]);
+    return m;
 }
 
 static inline uint32_t data_mask(const at28bv64b_t *dev) {
-    return (uint32_t)0xFF << dev->data_base;
+    uint32_t m = 0;
+    for (int i = 0; i < 8; i++) m |= (1u << dev->data_pins[i]);
+    return m;
 }
 
 static inline void set_address(const at28bv64b_t *dev, uint16_t addr) {
-    gpio_put_masked(addr_mask(dev),
-                    (uint32_t)(addr & AT28BV64B_ADDR_MASK) << dev->addr_base);
+    uint32_t mask = 0, vals = 0;
+    for (int i = 0; i < 13; i++) {
+        mask |= (1u << dev->addr_pins[i]);
+        if (addr & (1u << i)) vals |= (1u << dev->addr_pins[i]);
+    }
+    gpio_put_masked(mask, vals);
 }
 
 static inline void set_data_out(const at28bv64b_t *dev, uint8_t data) {
-    gpio_set_dir_masked(data_mask(dev), data_mask(dev));
-    gpio_put_masked(data_mask(dev), (uint32_t)data << dev->data_base);
+    uint32_t mask = 0, vals = 0;
+    for (int i = 0; i < 8; i++) {
+        mask |= (1u << dev->data_pins[i]);
+        if (data & (1u << i)) vals |= (1u << dev->data_pins[i]);
+    }
+    gpio_set_dir_masked(mask, mask);
+    gpio_put_masked(mask, vals);
 }
 
 static inline void set_data_in(const at28bv64b_t *dev) {
-    /* Clear the output latch before releasing the bus to input.
-     * Without this, floating pins retain the last driven voltage through
-     * the Schmitt trigger long enough for an immediate read to return the
-     * driven value — causing poll_write_complete to pass with no EEPROM. */
-    gpio_put_masked(data_mask(dev), 0u);
-    gpio_set_dir_masked(data_mask(dev), 0u);
+    uint32_t mask = data_mask(dev);
+    /* Drive LOW before releasing to input so the output latch does not
+     * retain the last written value on floating pins. */
+    gpio_put_masked(mask, 0u);
+    gpio_set_dir_masked(mask, 0u);
 }
 
 static inline uint8_t read_data(const at28bv64b_t *dev) {
-    return (uint8_t)((gpio_get_all() >> dev->data_base) & 0xFF);
+    uint32_t all = gpio_get_all();
+    uint8_t data = 0;
+    for (int i = 0; i < 8; i++) {
+        if (all & (1u << dev->data_pins[i])) data |= (1u << i);
+    }
+    return data;
 }
 
 /* ── Init / Deinit ──────────────────────────────────────────────────── */
 
 bool at28bv64b_init(const at28bv64b_t *dev) {
     for (uint i = 0; i < 13; i++) {
-        gpio_init(dev->addr_base + i);
-        gpio_set_dir(dev->addr_base + i, GPIO_OUT);
-        gpio_put(dev->addr_base + i, 0);
+        gpio_init(dev->addr_pins[i]);
+        gpio_set_dir(dev->addr_pins[i], GPIO_OUT);
+        gpio_put(dev->addr_pins[i], 0);
     }
     for (uint i = 0; i < 8; i++) {
-        gpio_init(dev->data_base + i);
-        gpio_set_dir(dev->data_base + i, GPIO_IN);
-        gpio_pull_down(dev->data_base + i);
+        gpio_init(dev->data_pins[i]);
+        gpio_set_dir(dev->data_pins[i], GPIO_IN);
+        gpio_pull_down(dev->data_pins[i]);
     }
     gpio_init(dev->ce_pin);
     gpio_set_dir(dev->ce_pin, GPIO_OUT);
@@ -78,8 +95,8 @@ bool at28bv64b_init(const at28bv64b_t *dev) {
 }
 
 void at28bv64b_deinit(const at28bv64b_t *dev) {
-    for (uint i = 0; i < 13; i++) gpio_deinit(dev->addr_base + i);
-    for (uint i = 0; i < 8;  i++) gpio_deinit(dev->data_base + i);
+    for (uint i = 0; i < 13; i++) gpio_deinit(dev->addr_pins[i]);
+    for (uint i = 0; i < 8;  i++) gpio_deinit(dev->data_pins[i]);
     gpio_deinit(dev->ce_pin);
     gpio_deinit(dev->oe_pin);
     gpio_deinit(dev->we_pin);
