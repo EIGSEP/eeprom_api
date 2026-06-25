@@ -1,0 +1,5 @@
+add_executable(test_eeprom test_main.c)
+target_link_libraries(test_eeprom at28bv64b pico_stdlib)
+pico_add_extra_outputs(test_eeprom)
+pico_enable_stdio_usb(test_eeprom 1)
+pico_enable_stdio_uart(test_eeprom 0)
