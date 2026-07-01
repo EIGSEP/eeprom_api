@@ -11,3 +11,4 @@ target_include_directories(at28bv64b PUBLIC include)
 target_link_libraries(at28bv64b pico_stdlib hardware_gpio)
 
 add_subdirectory(test)
+add_subdirectory(program_paths)
