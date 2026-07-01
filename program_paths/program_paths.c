@@ -36,10 +36,14 @@
  *
  * DEFAULT / FAIL-SAFE
  *   Address 0x00 holds LNA -> Feed so that if the 5 select lines are pulled
- *   low on comms loss, the presented byte is the safe default. NOTE: this only
- *   protects the "select lines low" case. Protection against the Pico/cable
- *   being unplugged (D-sub goes high-Z) MUST come from pull resistors on the
- *   switch board that bias each I/O line to the LNA->Feed pattern:
+ *   low on comms loss, the presented byte is the safe default. Unused
+ *   addresses (0x10..0x1F) are filled with the same default byte, so a
+ *   glitched or stuck select line also lands on LNA -> Feed rather than
+ *   0xFF (all switch inputs closed + noise diode on). NOTE: this only
+ *   protects cases where an address is actually presented. Protection
+ *   against the Pico/cable being unplugged (D-sub goes high-Z) MUST come
+ *   from pull resistors on the switch board that bias each I/O line to
+ *   the LNA->Feed pattern:
  *       EEPROM1 default byte = 0x08   (only I/O3 Feed high)
  *       EEPROM2 default byte = 0x05   (I/O0 RFSWA + I/O2 LNA high)
  *   Firmware cannot create that guarantee; it is a hardware requirement.
@@ -127,7 +131,14 @@ static bool led_cb(struct repeating_timer *t) {
 /* Program all 32 addresses for one chip, then read-back verify. */
 static bool program_chip(chip_t chip) {
     uint8_t image[32];
-    memset(image, 0xFF, sizeof(image));   /* unused addrs -> 0xFF (recognisable) */
+    /* Unused addresses (0x10..0x1F) get the chip's safe default byte
+     * (PATHS[0], LNA->Feed) rather than 0xFF: 0xFF would close every
+     * switch input and enable the noise diode, so a glitched or stuck
+     * select line must degrade to the default path instead. A blank
+     * chip reads 0xFF everywhere anyway, so the default-byte fill also
+     * makes read-back verification strictly more discriminating. */
+    uint8_t fill = (chip == CHIP_EEPROM1) ? PATHS[0].e1 : PATHS[0].e2;
+    memset(image, fill, sizeof(image));
 
     for (unsigned i = 0; i < N_PATHS; i++)
         image[i] = (chip == CHIP_EEPROM1) ? PATHS[i].e1 : PATHS[i].e2;
@@ -135,6 +146,8 @@ static bool program_chip(chip_t chip) {
     printf("\nProgramming EEPROM%d — 32 bytes:\n", (int)chip);
     for (unsigned i = 0; i < N_PATHS; i++)
         printf("  [0x%02X] 0x%02X  %s\n", i, image[i], PATHS[i].name);
+    printf("  [0x%02X-0x1F] 0x%02X  (unused -> safe default, LNA->Feed)\n",
+           (unsigned)N_PATHS, fill);
 
     /* Write. write_buf auto page-splits; 32 bytes fits inside one 64B page. */
     if (!at28bv64b_write_buf(&dev, 0x0000, image, sizeof(image))) {
