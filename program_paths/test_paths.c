@@ -89,9 +89,15 @@ static const path_t PATHS[] = {
 };
 #define N_PATHS (sizeof(PATHS) / sizeof(PATHS[0]))
 #define ADDR_SPAN 32u          /* 5 select lines → 32 addresses */
-#define UNUSED_FILL 0xFFu      /* program_paths writes this to 0x10..0x1F */
 
 typedef enum { CHIP_EEPROM1 = 1, CHIP_EEPROM2 = 2 } chip_t;
+
+/* program_paths fills unused addresses (0x10..0x1F) with the chip's safe
+ * default byte (PATHS[0], LNA->Feed) so a glitched select line degrades
+ * to the default path, never to 0xFF (all inputs closed + diode on). */
+static inline uint8_t unused_fill(chip_t chip) {
+    return (chip == CHIP_EEPROM1) ? PATHS[0].e1 : PATHS[0].e2;
+}
 
 /* Heartbeat toggles the LED while idle so you can see the firmware is alive.
  * It is disabled during a verify so the LED can show a definite result:
@@ -142,8 +148,9 @@ static void verify_chip(chip_t chip) {
         uint8_t sensed = sense_data_pins();   /* live Pico-side pin levels */
         uint8_t exp = (a < N_PATHS)
                         ? ((chip == CHIP_EEPROM1) ? PATHS[a].e1 : PATHS[a].e2)
-                        : UNUSED_FILL;
-        const char *label = (a < N_PATHS) ? PATHS[a].name : "(unused, expect 0xFF)";
+                        : unused_fill(chip);
+        const char *label = (a < N_PATHS) ? PATHS[a].name
+                                          : "(unused, expect safe default)";
         bool ok = (got == exp);
         printf("[%s] 0x%02X  read 0x%02X exp 0x%02X  live-pins 0x%02X  %s\n",
                ok ? "PASS" : "FAIL", a, got, exp, sensed, label);
