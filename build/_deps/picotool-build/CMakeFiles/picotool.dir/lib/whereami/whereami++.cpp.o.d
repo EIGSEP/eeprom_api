@@ -1,6 +1,6 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -779,7 +779,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach-o/dyld.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \

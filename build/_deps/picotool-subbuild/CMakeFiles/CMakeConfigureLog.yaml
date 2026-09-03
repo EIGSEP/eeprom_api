@@ -20,7 +20,6 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/cgtolley/Desktop/elsie/.venv/bin/"
       - "/Users/cgtolley/.local/bin/"
       - "/Users/cgtolley/anaconda3/bin/"
       - "/Users/cgtolley/anaconda3/condabin/"
@@ -40,7 +39,6 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Library/TeX/texbin/"
     searched_directories:
-      - "/Users/cgtolley/Desktop/elsie/.venv/bin/uname"
       - "/Users/cgtolley/.local/bin/uname"
       - "/Users/cgtolley/anaconda3/bin/uname"
       - "/Users/cgtolley/anaconda3/condabin/uname"
@@ -51,7 +49,6 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/cgtolley/Desktop/elsie/.venv/bin"
         - "/Users/cgtolley/.local/bin"
         - "/Users/cgtolley/anaconda3/bin"
         - "/Users/cgtolley/anaconda3/condabin"
@@ -97,7 +94,6 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/cgtolley/Desktop/elsie/.venv/bin/"
       - "/Users/cgtolley/.local/bin/"
       - "/Users/cgtolley/anaconda3/bin/"
       - "/Users/cgtolley/anaconda3/condabin/"
@@ -117,12 +113,10 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Library/TeX/texbin/"
     searched_directories:
-      - "/Users/cgtolley/Desktop/elsie/.venv/bin/install_name_tool"
       - "/Users/cgtolley/.local/bin/install_name_tool"
     found: "/Users/cgtolley/anaconda3/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Users/cgtolley/Desktop/elsie/.venv/bin"
         - "/Users/cgtolley/.local/bin"
         - "/Users/cgtolley/anaconda3/bin"
         - "/Users/cgtolley/anaconda3/condabin"

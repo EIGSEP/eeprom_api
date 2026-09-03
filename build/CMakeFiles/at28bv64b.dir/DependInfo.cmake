@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -79,7 +79,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/include"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/include"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/include"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_stdlib_headers/include"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/include"
@@ -180,7 +180,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" "gcc" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" "gcc" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/src/at28bv64b.c" "CMakeFiles/at28bv64b.dir/src/at28bv64b.c.o" "gcc" "CMakeFiles/at28bv64b.dir/src/at28bv64b.c.o.d"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/src/at28bv64b.c" "CMakeFiles/at28bv64b.dir/src/at28bv64b.c.o" "gcc" "CMakeFiles/at28bv64b.dir/src/at28bv64b.c.o.d"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/at28bv64b.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )
 

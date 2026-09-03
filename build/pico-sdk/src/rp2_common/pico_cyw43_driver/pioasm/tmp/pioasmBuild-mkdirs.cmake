@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/cgtolley/Desktop/elsie/pico-sdk/tools/pioasm")
   file(MAKE_DIRECTORY "/Users/cgtolley/Desktop/elsie/pico-sdk/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pioasm"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pioasm-install"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pioasm"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pioasm-install"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

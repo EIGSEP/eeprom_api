@@ -117,7 +117,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aesni.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -196,7 +196,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aesni.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -319,7 +319,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -367,7 +367,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c \
@@ -486,7 +486,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -611,7 +611,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1write.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
@@ -736,7 +736,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/base64.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
@@ -860,7 +860,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bn_mul.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -940,7 +940,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
@@ -1062,7 +1062,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/camellia.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -1110,7 +1110,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c \
@@ -1154,7 +1154,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c \
@@ -1198,7 +1198,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c \
@@ -1317,7 +1317,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher_internal.h \
@@ -1438,7 +1438,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
@@ -1492,7 +1492,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c \
@@ -1573,7 +1573,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/constant_time.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -1699,7 +1699,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -1749,7 +1749,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c \
@@ -1793,7 +1793,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c \
@@ -1837,7 +1837,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c \
@@ -1956,7 +1956,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1write.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
@@ -2010,7 +2010,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c \
@@ -2129,7 +2129,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bn_mul.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -2222,7 +2222,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bn_mul.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -2348,7 +2348,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/entropy_poll.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -2475,7 +2475,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/entropy_poll.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
@@ -2601,7 +2601,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
@@ -2676,7 +2676,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c \
@@ -2720,7 +2720,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c \
@@ -2792,7 +2792,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/hkdf.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
@@ -2916,7 +2916,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
@@ -3041,7 +3041,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/md2.h \
@@ -3098,7 +3098,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c \
@@ -3142,7 +3142,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c \
@@ -3261,7 +3261,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/md5.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
@@ -3310,7 +3310,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c \
@@ -3354,7 +3354,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c \
@@ -3398,7 +3398,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c \
@@ -3442,7 +3442,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c \
@@ -3561,7 +3561,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
@@ -3646,7 +3646,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/padlock.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -3769,7 +3769,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/base64.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
@@ -3853,7 +3853,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -3981,7 +3981,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -4073,7 +4073,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
@@ -4201,7 +4201,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
@@ -4333,7 +4333,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
@@ -4467,7 +4467,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/asn1write.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
@@ -4593,7 +4593,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -4702,7 +4702,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
@@ -4825,7 +4825,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -4874,7 +4874,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c \
@@ -4918,7 +4918,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c \
@@ -4962,7 +4962,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c \
@@ -5036,7 +5036,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cmac.h \
@@ -5174,7 +5174,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/cmac.h \
@@ -5255,7 +5255,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c \
@@ -5299,7 +5299,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c \
@@ -5343,7 +5343,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c \
@@ -5387,7 +5387,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c \
@@ -5431,7 +5431,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c \
@@ -5475,7 +5475,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c \
@@ -5519,7 +5519,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c \
@@ -5563,7 +5563,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c \
@@ -5607,7 +5607,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c \
@@ -5651,7 +5651,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c \
@@ -5695,7 +5695,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c \
@@ -5814,7 +5814,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -5938,7 +5938,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -6062,7 +6062,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
@@ -6110,7 +6110,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.o: /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c \
@@ -6273,7 +6273,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/timing.h \
@@ -6343,7 +6343,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
@@ -6411,7 +6411,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h
 
@@ -6531,7 +6531,7 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
@@ -6805,7 +6805,9 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
 
 /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/aesni.h:
 
-/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
+
+/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c:
 
@@ -7074,8 +7076,6 @@ lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/lib
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
 

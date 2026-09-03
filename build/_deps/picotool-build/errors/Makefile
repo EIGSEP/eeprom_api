@@ -57,10 +57,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/errors//CMakeFiles/progress.marks
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/errors//CMakeFiles/progress.marks
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/clean
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 errors/CMakeFiles/errors.dir/rule:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/CMakeFiles/errors.dir/rule
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 errors/CMakeFiles/errors.dir/rule
 .PHONY : errors/CMakeFiles/errors.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ errors: errors/CMakeFiles/errors.dir/rule
 
 # fast build rule for target.
 errors/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/build
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/build
 .PHONY : errors/fast
 
 errors.o: errors.cpp.o
@@ -180,7 +180,7 @@ errors.o: errors.cpp.o
 
 # target to build an object file
 errors.cpp.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/errors.cpp.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/errors.cpp.o
 .PHONY : errors.cpp.o
 
 errors.i: errors.cpp.i
@@ -188,7 +188,7 @@ errors.i: errors.cpp.i
 
 # target to preprocess a source file
 errors.cpp.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/errors.cpp.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/errors.cpp.i
 .PHONY : errors.cpp.i
 
 errors.s: errors.cpp.s
@@ -196,7 +196,7 @@ errors.s: errors.cpp.s
 
 # target to generate assembly for a file
 errors.cpp.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/errors.cpp.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f errors/CMakeFiles/errors.dir/build.make errors/CMakeFiles/errors.dir/errors.cpp.s
 .PHONY : errors.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

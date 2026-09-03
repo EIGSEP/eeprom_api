@@ -30,9 +30,9 @@ program_paths/CMakeFiles/select_path.dir/Users/cgtolley/Desktop/elsie/pico-sdk/s
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/generated/pico_base/pico/version.h \
+ /Users/cgtolley/Desktop/elsie/eeprom_api/build/generated/pico_base/pico/version.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/generated/pico_base/pico/config_autogen.h \
+ /Users/cgtolley/Desktop/elsie/eeprom_api/build/generated/pico_base/pico/config_autogen.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/boards/include/boards/pico2.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \

@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
-source_dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src
-work_dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps
+command=/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
+source_dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src
+work_dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps
 repository=https://github.com/raspberrypi/picotool.git
 remote=origin
 init_submodules=TRUE

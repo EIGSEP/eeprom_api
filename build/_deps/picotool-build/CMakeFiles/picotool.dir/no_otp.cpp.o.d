@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/no_otp.cpp.o: \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/no_otp.cpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/no_otp.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -766,11 +766,11 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/otp.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/otp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \

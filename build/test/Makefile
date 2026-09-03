@@ -57,10 +57,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test//CMakeFiles/progress.marks
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles /Users/cgtolley/Desktop/elsie/eeprom_api/build/test//CMakeFiles/progress.marks
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test_eeprom.dir/rule:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_eeprom.dir/rule
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_eeprom.dir/rule
 .PHONY : test/CMakeFiles/test_eeprom.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ test_eeprom: test/CMakeFiles/test_eeprom.dir/rule
 
 # fast build rule for target.
 test_eeprom/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/build
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/build
 .PHONY : test_eeprom/fast
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
@@ -135,7 +135,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -143,7 +143,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -151,7 +151,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -159,7 +159,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -167,7 +167,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -175,7 +175,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -183,7 +183,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -191,7 +191,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -199,7 +199,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -207,7 +207,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o:
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -215,7 +215,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i:
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -223,7 +223,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s:
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -231,7 +231,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -239,7 +239,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -247,7 +247,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -255,7 +255,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: 
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -263,7 +263,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: 
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -271,7 +271,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: 
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -279,7 +279,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -287,7 +287,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -295,7 +295,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -303,7 +303,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -311,7 +311,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -319,7 +319,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -327,7 +327,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -335,7 +335,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -343,7 +343,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -351,7 +351,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -359,7 +359,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -367,7 +367,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -375,7 +375,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -383,7 +383,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -391,7 +391,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
@@ -399,7 +399,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.o
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -407,7 +407,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -415,7 +415,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -423,7 +423,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -431,7 +431,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -439,7 +439,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.o
@@ -447,7 +447,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -455,7 +455,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -463,7 +463,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
@@ -471,7 +471,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -479,7 +479,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -487,7 +487,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -495,7 +495,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp204
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -503,7 +503,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp204
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -511,7 +511,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp204
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -519,7 +519,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp204
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -527,7 +527,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp204
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -535,7 +535,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp204
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.o
@@ -543,7 +543,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.o: Users/cgtolley/Des
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -551,7 +551,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.i: Users/cgtolley/Des
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -559,7 +559,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.s: Users/cgtolley/Des
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -567,7 +567,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.o: Users/c
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -575,7 +575,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.i: Users/c
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -583,7 +583,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.s: Users/c
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/hardware_claim/claim.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -591,7 +591,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.o: U
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -599,7 +599,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.i: U
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -607,7 +607,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.s: U
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -615,7 +615,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.o: Users/cg
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -623,7 +623,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.i: Users/cg
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -631,7 +631,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.s: Users/cg
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -639,7 +639,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -647,7 +647,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -655,7 +655,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.o
@@ -663,7 +663,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.i
@@ -671,7 +671,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.s
@@ -679,7 +679,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.o
@@ -687,7 +687,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.o: Users/cgtolle
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.i
@@ -695,7 +695,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.i: Users/cgtolle
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.s
@@ -703,7 +703,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.s: Users/cgtolle
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/time.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -711,7 +711,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -719,7 +719,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -727,7 +727,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.o
@@ -735,7 +735,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.i
@@ -743,7 +743,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.s
@@ -751,7 +751,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.o
@@ -759,7 +759,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.i
@@ -767,7 +767,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.s
@@ -775,7 +775,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.o
@@ -783,7 +783,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.i
@@ -791,7 +791,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.s
@@ -799,7 +799,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.o
@@ -807,7 +807,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.i
@@ -815,7 +815,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.s
@@ -823,7 +823,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/platform.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -831,7 +831,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_loc
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -839,7 +839,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_loc
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -847,7 +847,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_loc
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -855,7 +855,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: U
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -863,7 +863,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: U
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -871,7 +871,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: U
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
@@ -879,7 +879,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.o:
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
@@ -887,7 +887,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.i:
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
@@ -895,7 +895,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.s:
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
@@ -903,7 +903,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -911,7 +911,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -919,7 +919,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -927,7 +927,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -935,7 +935,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -943,7 +943,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
@@ -951,7 +951,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/c
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -959,7 +959,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/c
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -967,7 +967,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/c
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -975,7 +975,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_ch
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
@@ -983,7 +983,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/c
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -991,7 +991,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/c
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -999,7 +999,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/c
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -1007,7 +1007,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1015,7 +1015,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1023,7 +1023,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1031,7 +1031,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/syn
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1039,7 +1039,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/syn
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1047,7 +1047,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/syn
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1055,7 +1055,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1063,7 +1063,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1071,7 +1071,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -1079,7 +1079,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1087,7 +1087,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1095,7 +1095,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -1103,7 +1103,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1111,7 +1111,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1119,7 +1119,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1127,7 +1127,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1135,7 +1135,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1143,7 +1143,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1151,7 +1151,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1159,7 +1159,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1167,7 +1167,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1175,7 +1175,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cach
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1183,7 +1183,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cach
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1191,7 +1191,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cach
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1199,7 +1199,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1207,7 +1207,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1215,7 +1215,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
@@ -1223,7 +1223,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -1231,7 +1231,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -1239,7 +1239,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1247,7 +1247,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1255,7 +1255,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1263,7 +1263,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1271,7 +1271,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1279,7 +1279,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1287,7 +1287,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1295,7 +1295,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1303,7 +1303,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1311,7 +1311,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1319,7 +1319,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -1327,7 +1327,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1335,7 +1335,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1343,7 +1343,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1351,7 +1351,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
@@ -1359,7 +1359,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compil
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
@@ -1367,7 +1367,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compil
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
@@ -1375,7 +1375,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compil
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
@@ -1383,7 +1383,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dc
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
@@ -1391,7 +1391,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
@@ -1399,7 +1399,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -1407,7 +1407,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.o: 
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1415,7 +1415,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.i: 
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1423,7 +1423,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.s: 
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
@@ -1431,7 +1431,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1439,7 +1439,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1447,7 +1447,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1455,7 +1455,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -1463,7 +1463,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/c
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -1471,7 +1471,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/c
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -1479,7 +1479,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/c
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
@@ -1487,7 +1487,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
@@ -1495,7 +1495,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1503,7 +1503,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1511,7 +1511,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1519,7 +1519,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
@@ -1527,7 +1527,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vf
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
@@ -1535,7 +1535,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1543,7 +1543,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1551,7 +1551,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1559,7 +1559,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1567,7 +1567,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1575,7 +1575,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1583,7 +1583,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1591,7 +1591,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1599,7 +1599,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
@@ -1607,7 +1607,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1615,7 +1615,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1623,7 +1623,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1631,7 +1631,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1639,7 +1639,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1647,7 +1647,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1655,7 +1655,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1663,7 +1663,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1671,7 +1671,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -1679,7 +1679,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1687,7 +1687,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1695,7 +1695,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_i
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1703,7 +1703,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/s
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1711,7 +1711,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/s
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1719,7 +1719,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/s
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -1727,7 +1727,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/c
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1735,7 +1735,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/c
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1743,7 +1743,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/c
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
@@ -1751,7 +1751,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interf
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1759,7 +1759,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interf
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1767,7 +1767,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interf
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
@@ -1775,7 +1775,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o:
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1783,7 +1783,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i:
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1791,7 +1791,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s:
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -1799,7 +1799,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_de
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1807,7 +1807,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_de
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1815,7 +1815,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_de
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -1823,7 +1823,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1831,7 +1831,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1839,7 +1839,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -1847,7 +1847,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o:
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1855,7 +1855,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i:
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1863,7 +1863,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s:
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 test_main.o: test_main.c.o
@@ -1871,7 +1871,7 @@ test_main.o: test_main.c.o
 
 # target to build an object file
 test_main.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/test_main.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/test_main.c.o
 .PHONY : test_main.c.o
 
 test_main.i: test_main.c.i
@@ -1879,7 +1879,7 @@ test_main.i: test_main.c.i
 
 # target to preprocess a source file
 test_main.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/test_main.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/test_main.c.i
 .PHONY : test_main.c.i
 
 test_main.s: test_main.c.s
@@ -1887,7 +1887,7 @@ test_main.s: test_main.c.s
 
 # target to generate assembly for a file
 test_main.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/test_main.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_eeprom.dir/build.make test/CMakeFiles/test_eeprom.dir/test_main.c.s
 .PHONY : test_main.c.s
 
 # Help Target
@@ -2130,6 +2130,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

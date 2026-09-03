@@ -53,10 +53,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2350/boot_stage2/bs2_default.bin: pico-sdk/src/rp2350/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/eeprom_api/build /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

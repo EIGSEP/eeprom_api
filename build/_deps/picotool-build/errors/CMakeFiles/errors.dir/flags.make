@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/errors
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++14 -arch arm64
 

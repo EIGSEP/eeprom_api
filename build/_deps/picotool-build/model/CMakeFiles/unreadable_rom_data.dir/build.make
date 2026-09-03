@@ -53,10 +53,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build
 
 # Utility rule file for unreadable_rom_data.
 
@@ -68,13 +68,13 @@ model/CMakeFiles/unreadable_rom_data: model/rp2350_a3_rom_end.h
 model/CMakeFiles/unreadable_rom_data: model/rp2350_a4_rom_end.h
 
 model/rp2350_a2_rom_end.h:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/rp2350_a2_rom_end.bin -D OUTPUT_NAME=rp2350_a2_rom_end -P /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/../cmake/binh.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE=/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/rp2350_a2_rom_end.bin -D OUTPUT_NAME=rp2350_a2_rom_end -P /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/../cmake/binh.cmake
 
 model/rp2350_a3_rom_end.h:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/rp2350_a3_rom_end.bin -D OUTPUT_NAME=rp2350_a3_rom_end -P /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/../cmake/binh.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE=/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/rp2350_a3_rom_end.bin -D OUTPUT_NAME=rp2350_a3_rom_end -P /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/../cmake/binh.cmake
 
 model/rp2350_a4_rom_end.h:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/rp2350_a4_rom_end.bin -D OUTPUT_NAME=rp2350_a4_rom_end -P /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/../cmake/binh.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE=/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/rp2350_a4_rom_end.bin -D OUTPUT_NAME=rp2350_a4_rom_end -P /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/../cmake/binh.cmake
 
 model/CMakeFiles/unreadable_rom_data.dir/codegen:
 .PHONY : model/CMakeFiles/unreadable_rom_data.dir/codegen
@@ -91,10 +91,10 @@ model/CMakeFiles/unreadable_rom_data.dir/build: unreadable_rom_data
 .PHONY : model/CMakeFiles/unreadable_rom_data.dir/build
 
 model/CMakeFiles/unreadable_rom_data.dir/clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model && $(CMAKE_COMMAND) -P CMakeFiles/unreadable_rom_data.dir/cmake_clean.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model && $(CMAKE_COMMAND) -P CMakeFiles/unreadable_rom_data.dir/cmake_clean.cmake
 .PHONY : model/CMakeFiles/unreadable_rom_data.dir/clean
 
 model/CMakeFiles/unreadable_rom_data.dir/depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/CMakeFiles/unreadable_rom_data.dir/DependInfo.cmake "--color=$(COLOR)" unreadable_rom_data
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/CMakeFiles/unreadable_rom_data.dir/DependInfo.cmake "--color=$(COLOR)" unreadable_rom_data
 .PHONY : model/CMakeFiles/unreadable_rom_data.dir/depend
 

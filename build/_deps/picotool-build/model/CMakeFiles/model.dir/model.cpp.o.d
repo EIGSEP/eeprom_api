@@ -1,6 +1,6 @@
 model/CMakeFiles/model.dir/model.cpp.o: \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/model.cpp \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/model.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/model.cpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/model.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -776,8 +776,8 @@ model/CMakeFiles/model.dir/model.cpp.o: \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/host/pico_platform/include/pico/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/host/pico_platform/include/hardware/platform_defs.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/addresses.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/errors/errors.h
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/addresses.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/errors/errors.h

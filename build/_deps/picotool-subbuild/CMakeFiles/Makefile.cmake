@@ -10,8 +10,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "picotool-populate-prefix/tmp/picotool-populate-mkdirs.cmake"
+  "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake"
   "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeGenericSystem.cmake"
   "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake"
+  "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeSystem.cmake.in"
   "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake"
   "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake"
   "/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.2/Modules/ExternalProject.cmake"
@@ -36,6 +38,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/4.2.1/CMakeSystem.cmake"
   "picotool-populate-prefix/tmp/picotool-populate-mkdirs.cmake"
   "picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake"
   "picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt"

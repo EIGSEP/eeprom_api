@@ -1,6 +1,6 @@
 CMakeFiles/picotool.dir/main.cpp.o: \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/main.cpp \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/cli.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/main.cpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/cli.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -792,7 +792,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/clipp/clipp.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/clipp/clipp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cinttypes \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
@@ -845,23 +845,23 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/get_enc_bootloader.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/get_enc_bootloader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/model.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/addresses.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/errors/errors.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/bintool/bintool.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/model.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/addresses.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/errors/errors.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/bintool/bintool.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
@@ -874,18 +874,18 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf/elf_file.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf/elf.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/bintool/metadata.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf/elf.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/bintool/metadata.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/otp.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/otp.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \

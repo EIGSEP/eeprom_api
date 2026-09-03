@@ -53,10 +53,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/
 include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch_nocreate /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/CMakeLists.txt
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch_nocreate /Users/cgtolley/Desktop/elsie/eeprom_api/CMakeLists.txt
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/codegen
@@ -81,10 +81,10 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build: p
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)" picotoolForceReconfigure
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/eeprom_api/build /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)" picotoolForceReconfigure
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend
 

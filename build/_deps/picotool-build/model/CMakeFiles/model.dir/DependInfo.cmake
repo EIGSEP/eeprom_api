@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/model.cpp" "model/CMakeFiles/model.dir/model.cpp.o" "gcc" "model/CMakeFiles/model.dir/model.cpp.o.d"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/model.cpp" "model/CMakeFiles/model.dir/model.cpp.o" "gcc" "model/CMakeFiles/model.dir/model.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

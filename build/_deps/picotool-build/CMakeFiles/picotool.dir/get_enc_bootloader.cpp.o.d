@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/get_enc_bootloader.cpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/get_enc_bootloader.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -785,8 +785,8 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/get_enc_bootloader.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/enc_bootloader_elf.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/enc_bootloader_mbedtls_elf.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/data_locs.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami++.h
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/get_enc_bootloader.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/enc_bootloader_elf.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/enc_bootloader_mbedtls_elf.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/data_locs.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/whereami/whereami++.h

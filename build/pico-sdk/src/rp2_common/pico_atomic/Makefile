@@ -57,10 +57,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_atomic//CMakeFiles/progress.marks
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_atomic//CMakeFiles/progress.marks
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/clean
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_atomic/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

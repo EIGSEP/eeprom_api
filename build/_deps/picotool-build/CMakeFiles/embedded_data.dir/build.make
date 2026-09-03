@@ -53,10 +53,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build
 
 # Utility rule file for embedded_data.
 
@@ -67,10 +67,10 @@ CMakeFiles/embedded_data: xip_ram_perms_elf.h
 CMakeFiles/embedded_data: flash_id_bin.h
 
 flash_id_bin.h: flash_id
-	/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=flash_id_bin -P /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/cmake/binh.cmake
+	/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=flash_id_bin -P /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/cmake/binh.cmake
 
-xip_ram_perms_elf.h: /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/xip_ram_perms
-	/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=xip_ram_perms_elf -P /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/cmake/binh.cmake
+xip_ram_perms_elf.h: /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/xip_ram_perms
+	/Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=xip_ram_perms_elf -P /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/cmake/binh.cmake
 
 CMakeFiles/embedded_data.dir/codegen:
 .PHONY : CMakeFiles/embedded_data.dir/codegen
@@ -90,6 +90,6 @@ CMakeFiles/embedded_data.dir/clean:
 .PHONY : CMakeFiles/embedded_data.dir/clean
 
 CMakeFiles/embedded_data.dir/depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles/embedded_data.dir/DependInfo.cmake "--color=$(COLOR)" embedded_data
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles/embedded_data.dir/DependInfo.cmake "--color=$(COLOR)" embedded_data
 .PHONY : CMakeFiles/embedded_data.dir/depend
 

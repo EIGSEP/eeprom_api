@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+  "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/Users/cgtolley/Desktop/elsie/eeprom_api/build/test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -86,7 +86,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/include"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/include"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_atomic/include"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/lib/tinyusb/src"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_stdlib_headers/include"
@@ -217,7 +217,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" "gcc" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
-  "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/test/test_main.c" "test/CMakeFiles/test_eeprom.dir/test_main.c.o" "gcc" "test/CMakeFiles/test_eeprom.dir/test_main.c.o.d"
+  "/Users/cgtolley/Desktop/elsie/eeprom_api/test/test_main.c" "test/CMakeFiles/test_eeprom.dir/test_main.c.o" "gcc" "test/CMakeFiles/test_eeprom.dir/test_main.c.o.d"
   "/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "test/CMakeFiles/test_eeprom.dir/Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )
 

@@ -53,10 +53,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 1 /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 1 /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)" cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/cgtolley/Desktop/elsie/eeprom_api/build /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)" cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

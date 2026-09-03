@@ -1,5 +1,5 @@
 elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -773,7 +773,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
@@ -796,19 +796,19 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf/elf_file.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/elf/elf.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/elf/elf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/model.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/model.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/host/pico_platform/include/pico/platform.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/host/pico_platform/include/hardware/platform_defs.h \
   /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/model/addresses.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/errors/errors.h
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/model/addresses.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/errors/errors.h

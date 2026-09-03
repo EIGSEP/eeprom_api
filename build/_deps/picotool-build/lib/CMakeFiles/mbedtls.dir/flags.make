@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\"
 
-C_INCLUDES = -I/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include -isystem /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include
+C_INCLUDES = -I/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include -isystem /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/include
 
 C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 

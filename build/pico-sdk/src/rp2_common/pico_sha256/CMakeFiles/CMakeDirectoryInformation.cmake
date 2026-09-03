@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/cgtolley/Desktop/elsie/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/cgtolley/Desktop/elsie/eeprom_api/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

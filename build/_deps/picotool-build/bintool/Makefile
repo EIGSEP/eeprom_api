@@ -57,10 +57,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/bintool//CMakeFiles/progress.marks
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/bintool//CMakeFiles/progress.marks
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/clean
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bintool/CMakeFiles/bintool.dir/rule:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/CMakeFiles/bintool.dir/rule
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bintool/CMakeFiles/bintool.dir/rule
 .PHONY : bintool/CMakeFiles/bintool.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ bintool: bintool/CMakeFiles/bintool.dir/rule
 
 # fast build rule for target.
 bintool/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/build
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/build
 .PHONY : bintool/fast
 
 bintool.o: bintool.cpp.o
@@ -180,7 +180,7 @@ bintool.o: bintool.cpp.o
 
 # target to build an object file
 bintool.cpp.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/bintool.cpp.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/bintool.cpp.o
 .PHONY : bintool.cpp.o
 
 bintool.i: bintool.cpp.i
@@ -188,7 +188,7 @@ bintool.i: bintool.cpp.i
 
 # target to preprocess a source file
 bintool.cpp.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/bintool.cpp.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/bintool.cpp.i
 .PHONY : bintool.cpp.i
 
 bintool.s: bintool.cpp.s
@@ -196,7 +196,7 @@ bintool.s: bintool.cpp.s
 
 # target to generate assembly for a file
 bintool.cpp.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/bintool.cpp.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/bintool.cpp.s
 .PHONY : bintool.cpp.s
 
 mbedtls_wrapper.o: mbedtls_wrapper.c.o
@@ -204,7 +204,7 @@ mbedtls_wrapper.o: mbedtls_wrapper.c.o
 
 # target to build an object file
 mbedtls_wrapper.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o
 .PHONY : mbedtls_wrapper.c.o
 
 mbedtls_wrapper.i: mbedtls_wrapper.c.i
@@ -212,7 +212,7 @@ mbedtls_wrapper.i: mbedtls_wrapper.c.i
 
 # target to preprocess a source file
 mbedtls_wrapper.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.i
 .PHONY : mbedtls_wrapper.c.i
 
 mbedtls_wrapper.s: mbedtls_wrapper.c.s
@@ -220,7 +220,7 @@ mbedtls_wrapper.s: mbedtls_wrapper.c.s
 
 # target to generate assembly for a file
 mbedtls_wrapper.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f bintool/CMakeFiles/bintool.dir/build.make bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.s
 .PHONY : mbedtls_wrapper.c.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

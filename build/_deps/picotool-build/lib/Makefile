@@ -57,10 +57,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/lib//CMakeFiles/progress.marks
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build/CMakeFiles 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/lib//CMakeFiles/progress.marks
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/mbedtls.dir/rule:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/mbedtls.dir/rule
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/mbedtls.dir/rule
 .PHONY : lib/CMakeFiles/mbedtls.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ mbedtls: lib/CMakeFiles/mbedtls.dir/rule
 
 # fast build rule for target.
 mbedtls/fast:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/build
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/build
 .PHONY : mbedtls/fast
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.o
@@ -180,7 +180,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.i
@@ -188,7 +188,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.s
@@ -196,7 +196,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aes.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.o
@@ -204,7 +204,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.o: Users/cgtolle
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.i
@@ -212,7 +212,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.i: Users/cgtolle
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.s
@@ -220,7 +220,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.s: Users/cgtolle
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aesni.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.o
@@ -228,7 +228,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.i
@@ -236,7 +236,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.s
@@ -244,7 +244,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/arc4.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.o
@@ -252,7 +252,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.i
@@ -260,7 +260,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.s
@@ -268,7 +268,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/aria.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.o
@@ -276,7 +276,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.i
@@ -284,7 +284,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.s
@@ -292,7 +292,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1parse.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.o
@@ -300,7 +300,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.i
@@ -308,7 +308,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.s
@@ -316,7 +316,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/asn1write.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.o
@@ -324,7 +324,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.i
@@ -332,7 +332,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.s
@@ -340,7 +340,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/base64.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.o
@@ -348,7 +348,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.i
@@ -356,7 +356,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.s
@@ -364,7 +364,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/bignum.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.o
@@ -372,7 +372,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.o: Users/cgto
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.i
@@ -380,7 +380,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.i: Users/cgto
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.s
@@ -388,7 +388,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.s: Users/cgto
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/blowfish.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.o
@@ -396,7 +396,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.o: Users/cgto
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.i
@@ -404,7 +404,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.i: Users/cgto
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.s
@@ -412,7 +412,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.s: Users/cgto
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/camellia.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.o
@@ -420,7 +420,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.i
@@ -428,7 +428,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.s
@@ -436,7 +436,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ccm.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.o
@@ -444,7 +444,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.o: Users/cgto
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.i
@@ -452,7 +452,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.i: Users/cgto
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.s
@@ -460,7 +460,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.s: Users/cgto
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chacha20.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.o
@@ -468,7 +468,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.o: Users/cg
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.i
@@ -476,7 +476,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.i: Users/cg
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.s
@@ -484,7 +484,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.s: Users/cg
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/chachapoly.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.o
@@ -492,7 +492,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.i
@@ -500,7 +500,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.s
@@ -508,7 +508,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o
@@ -516,7 +516,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.o: Users/c
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.i
@@ -524,7 +524,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.i: Users/c
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.s
@@ -532,7 +532,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.s: Users/c
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cipher_wrap.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.o
@@ -540,7 +540,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.i
@@ -548,7 +548,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.s
@@ -556,7 +556,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/cmac.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.o
@@ -564,7 +564,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.i
@@ -572,7 +572,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.s
@@ -580,7 +580,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/constant_time.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o
@@ -588,7 +588,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.o: Users/cgto
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.i
@@ -596,7 +596,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.i: Users/cgto
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.s
@@ -604,7 +604,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.s: Users/cgto
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ctr_drbg.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.o
@@ -612,7 +612,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.i
@@ -620,7 +620,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.s
@@ -628,7 +628,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/des.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.o
@@ -636,7 +636,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.i
@@ -644,7 +644,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.s
@@ -652,7 +652,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/dhm.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.o
@@ -660,7 +660,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.i
@@ -668,7 +668,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.s
@@ -676,7 +676,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdh.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.o
@@ -684,7 +684,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.o: Users/cgtolle
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.i
@@ -692,7 +692,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.i: Users/cgtolle
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.s
@@ -700,7 +700,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.s: Users/cgtolle
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecdsa.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.o
@@ -708,7 +708,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.i
@@ -716,7 +716,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.s
@@ -724,7 +724,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecjpake.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.o
@@ -732,7 +732,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.i
@@ -740,7 +740,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.s
@@ -748,7 +748,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.o
@@ -756,7 +756,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.o: Users/cg
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.i
@@ -764,7 +764,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.i: Users/cg
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.s
@@ -772,7 +772,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.s: Users/cg
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ecp_curves.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.o
@@ -780,7 +780,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.i
@@ -788,7 +788,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.s
@@ -796,7 +796,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.o
@@ -804,7 +804,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.o: Users/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.i
@@ -812,7 +812,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.i: Users/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.s
@@ -820,7 +820,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.s: Users/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/entropy_poll.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.o
@@ -828,7 +828,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.o: Users/cgtolle
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.i
@@ -836,7 +836,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.i: Users/cgtolle
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.s
@@ -844,7 +844,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.s: Users/cgtolle
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/error.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.o
@@ -852,7 +852,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.i
@@ -860,7 +860,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.s
@@ -868,7 +868,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/gcm.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.o
@@ -876,7 +876,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.i
@@ -884,7 +884,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.s
@@ -892,7 +892,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/havege.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.o
@@ -900,7 +900,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.i
@@ -908,7 +908,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.s
@@ -916,7 +916,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hkdf.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o
@@ -924,7 +924,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.i
@@ -932,7 +932,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.s
@@ -940,7 +940,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/hmac_drbg.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.o
@@ -948,7 +948,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.o: Users/cgtolley/D
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.i
@@ -956,7 +956,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.i: Users/cgtolley/D
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.s
@@ -964,7 +964,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.s: Users/cgtolley/D
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.o
@@ -972,7 +972,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.i
@@ -980,7 +980,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.s
@@ -988,7 +988,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md2.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.o
@@ -996,7 +996,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.i
@@ -1004,7 +1004,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.s
@@ -1012,7 +1012,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md4.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.o
@@ -1020,7 +1020,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.i
@@ -1028,7 +1028,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.s
@@ -1036,7 +1036,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/md5.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o
@@ -1044,7 +1044,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.o:
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.i
@@ -1052,7 +1052,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.i:
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.s
@@ -1060,7 +1060,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.s:
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.o
@@ -1068,7 +1068,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.o: Users/cg
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.i
@@ -1076,7 +1076,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.i: Users/cg
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.s
@@ -1084,7 +1084,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.s: Users/cg
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_reader.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.o
@@ -1092,7 +1092,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.i
@@ -1100,7 +1100,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.s
@@ -1108,7 +1108,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/mps_trace.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.o
@@ -1116,7 +1116,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.i
@@ -1124,7 +1124,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.s
@@ -1132,7 +1132,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/nist_kw.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.o
@@ -1140,7 +1140,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.i
@@ -1148,7 +1148,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.s
@@ -1156,7 +1156,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/oid.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.o
@@ -1164,7 +1164,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.i
@@ -1172,7 +1172,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.s
@@ -1180,7 +1180,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/padlock.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.o
@@ -1188,7 +1188,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.i
@@ -1196,7 +1196,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.s
@@ -1204,7 +1204,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pem.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.o
@@ -1212,7 +1212,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.o: Users/cgtolley/D
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.i
@@ -1220,7 +1220,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.i: Users/cgtolley/D
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.s
@@ -1228,7 +1228,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.s: Users/cgtolley/D
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.o
@@ -1236,7 +1236,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.i
@@ -1244,7 +1244,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.s
@@ -1252,7 +1252,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pk_wrap.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.o
@@ -1260,7 +1260,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.i
@@ -1268,7 +1268,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.s
@@ -1276,7 +1276,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs12.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.o
@@ -1284,7 +1284,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.o: Users/cgtolle
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.i
@@ -1292,7 +1292,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.i: Users/cgtolle
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.s
@@ -1300,7 +1300,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.s: Users/cgtolle
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkcs5.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.o
@@ -1308,7 +1308,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.i
@@ -1316,7 +1316,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.s
@@ -1324,7 +1324,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkparse.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.o
@@ -1332,7 +1332,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.i
@@ -1340,7 +1340,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.s
@@ -1348,7 +1348,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/pkwrite.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.o
@@ -1356,7 +1356,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.o: Users/cgto
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.i
@@ -1364,7 +1364,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.i: Users/cgto
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.s
@@ -1372,7 +1372,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.s: Users/cgto
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.o
@@ -1380,7 +1380,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.i
@@ -1388,7 +1388,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.s
@@ -1396,7 +1396,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/platform_util.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.o
@@ -1404,7 +1404,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.o: Users/cgto
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.i
@@ -1412,7 +1412,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.i: Users/cgto
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.s
@@ -1420,7 +1420,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.s: Users/cgto
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/poly1305.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.o
@@ -1428,7 +1428,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.o: Users/cg
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.i
@@ -1436,7 +1436,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.i: Users/cg
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.s
@@ -1444,7 +1444,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.s: Users/cg
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o
@@ -1452,7 +1452,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.i
@@ -1460,7 +1460,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.s
@@ -1468,7 +1468,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o
@@ -1476,7 +1476,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.o: U
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.i
@@ -1484,7 +1484,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.i: U
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.s
@@ -1492,7 +1492,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.s: U
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o
@@ -1500,7 +1500,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.o: U
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.i
@@ -1508,7 +1508,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.i: U
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.s
@@ -1516,7 +1516,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.s: U
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o
@@ -1524,7 +1524,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrap
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.i
@@ -1532,7 +1532,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrap
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.s
@@ -1540,7 +1540,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrap
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o
@@ -1548,7 +1548,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.o: User
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.i
@@ -1556,7 +1556,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.i: User
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.s
@@ -1564,7 +1564,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.s: User
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o
@@ -1572,7 +1572,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.o: Use
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.i
@@ -1580,7 +1580,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.i: Use
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.s
@@ -1588,7 +1588,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.s: Use
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o
@@ -1596,7 +1596,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.o: User
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.i
@@ -1604,7 +1604,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.i: User
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.s
@@ -1612,7 +1612,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.s: User
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o
@@ -1620,7 +1620,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.o: User
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.i
@@ -1628,7 +1628,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.i: User
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.s
@@ -1636,7 +1636,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.s: User
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o
@@ -1644,7 +1644,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.o: Users
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.i
@@ -1652,7 +1652,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.i: Users
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.s
@@ -1660,7 +1660,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.s: Users
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o
@@ -1668,7 +1668,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_manage
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.i
@@ -1676,7 +1676,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_manage
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.s
@@ -1684,7 +1684,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_manage
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o
@@ -1692,7 +1692,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.o: 
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.i
@@ -1700,7 +1700,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.i: 
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.s
@@ -1708,7 +1708,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.s: 
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.o
@@ -1716,7 +1716,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.o: Users/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.i
@@ -1724,7 +1724,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.i: Users/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.s
@@ -1732,7 +1732,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.s: Users/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_its_file.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.o
@@ -1740,7 +1740,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.i
@@ -1748,7 +1748,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.s
@@ -1756,7 +1756,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/ripemd160.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.o
@@ -1764,7 +1764,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.o: Users/cgtolley/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.i
@@ -1772,7 +1772,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.i: Users/cgtolley/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.s
@@ -1780,7 +1780,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.s: Users/cgtolley/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.o
@@ -1788,7 +1788,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.o: Users/
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.i
@@ -1796,7 +1796,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.i: Users/
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.s
@@ -1804,7 +1804,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.s: Users/
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/rsa_internal.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.o
@@ -1812,7 +1812,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.i
@@ -1820,7 +1820,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.s
@@ -1828,7 +1828,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha1.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.o
@@ -1836,7 +1836,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.i
@@ -1844,7 +1844,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.s
@@ -1852,7 +1852,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha256.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.o
@@ -1860,7 +1860,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.i
@@ -1868,7 +1868,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.s
@@ -1876,7 +1876,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/sha512.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.o
@@ -1884,7 +1884,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.o: Users/cgt
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.i
@@ -1892,7 +1892,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.i: Users/cgt
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.s
@@ -1900,7 +1900,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.s: Users/cgt
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/threading.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.o
@@ -1908,7 +1908,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.o: Users/cgtoll
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.i
@@ -1916,7 +1916,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.i: Users/cgtoll
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.s
@@ -1924,7 +1924,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.s: Users/cgtoll
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/timing.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.o
@@ -1932,7 +1932,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.o: Users/cgtol
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.i
@@ -1940,7 +1940,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.i: Users/cgtol
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.s
@@ -1948,7 +1948,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.s: Users/cgtol
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.o
@@ -1956,7 +1956,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.o: Us
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.i
@@ -1964,7 +1964,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.i: Us
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.s
@@ -1972,7 +1972,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.s: Us
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/version_features.c.s
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.o: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.o
@@ -1980,7 +1980,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.o: Users/cgtolley
 
 # target to build an object file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.o:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.o
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.o
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.o
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.i: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.i
@@ -1988,7 +1988,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.i: Users/cgtolley
 
 # target to preprocess a source file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.i:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.i
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.i
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.i
 
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.s: Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.s
@@ -1996,7 +1996,7 @@ Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.s: Users/cgtolley
 
 # target to generate assembly for a file
 Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.s:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.s
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.s
 .PHONY : Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/xtea.c.s
 
 # Help Target
@@ -2251,6 +2251,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

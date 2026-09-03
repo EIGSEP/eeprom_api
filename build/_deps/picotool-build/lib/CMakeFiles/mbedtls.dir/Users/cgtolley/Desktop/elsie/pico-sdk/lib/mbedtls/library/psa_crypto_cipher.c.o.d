@@ -1,7 +1,7 @@
 lib/CMakeFiles/mbedtls.dir/Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o: \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c \
   /Users/cgtolley/Desktop/elsie/pico-sdk/lib/mbedtls/library/common.h \
-  /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \

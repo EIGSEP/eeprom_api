@@ -53,10 +53,10 @@ RM = /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api
+CMAKE_SOURCE_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build
+CMAKE_BINARY_DIR = /Users/cgtolley/Desktop/elsie/eeprom_api/build
 
 # Utility rule file for picotoolBuild.
 
@@ -77,52 +77,52 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E make_directory /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E make_directory /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE)
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2350/boot_stage2/picotool/tmp/picotoolBuild-cfgcmd.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make -DPICO_SDK_PATH:FILEPATH=/Users/cgtolley/Desktop/elsie/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src -B /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make -DPICO_SDK_PATH:FILEPATH=/Users/cgtolley/Desktop/elsie/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src -B /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-source_dirinfo.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo_append
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && $(MAKE) install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && $(MAKE) install
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/tmp/picotoolBuild-mkdirs.cmake
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/tmp/picotoolBuild-mkdirs.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch-info.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo_append
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool/picotool version 2.1.1
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool/picotool version 2.1.1
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update-info.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo_append
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/cgtolley/Desktop/elsie/eeprom_api/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && /Users/cgtolley/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E touch /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/codegen
@@ -145,10 +145,10 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/build: picotoolBuil
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/clean:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/depend:
-	cd /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake "--color=$(COLOR)" picotoolBuild
+	cd /Users/cgtolley/Desktop/elsie/eeprom_api/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cgtolley/Desktop/elsie/eeprom_api /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/eeprom_api/build /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2 /Users/cgtolley/Desktop/elsie/eeprom_api/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake "--color=$(COLOR)" picotoolBuild
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/depend
 

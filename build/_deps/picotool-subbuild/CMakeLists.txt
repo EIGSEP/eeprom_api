@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(picotool-populate
                      "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "GIT_TAG" "develop"
-                    SOURCE_DIR          "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-src"
-                    BINARY_DIR          "/Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/_deps/picotool-build"
+                    SOURCE_DIR          "/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-src"
+                    BINARY_DIR          "/Users/cgtolley/Desktop/elsie/eeprom_api/build/_deps/picotool-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -14,11 +14,11 @@
  *
  * ADDRESS LINES  (must match how A0..A4 are wired to this Pico)
  *   A0 = GP8   (LSB)
- *   A1 = GP9
- *   A2 = GP10
- *   A3 = GP11
- *   A4 = GP12  (MSB)
- *   address value = sum(bit_i << i), i = 0..4  -> GP(8+i)
+ *   A1 = GP10
+ *   A2 = GP12
+ *   A3 = GP14
+ *   A4 = GP15  (MSB)
+ *   address value = sum(bit_i << i), i = 0..4  -> ADDR_GPIO[i]
  *
  * The path list and address numbers match the table burned by program_paths.c:
  * address 0x00 = LNA->Feed (default), etc.
@@ -37,10 +37,10 @@
 #include "pico/time.h"
 #include "hardware/gpio.h"
 
-/* ── Address-line GPIO mapping: A0..A4 -> GP8..GP12 ─────────────────────
+/* ── Address-line GPIO mapping: A0..A4 -> GP8,10,12,14,15 ────────────────
  * The ONE place that defines address bit -> GPIO. Edit here only. */
 #define ADDR_LINES   5
-#define ADDR_GPIO0   8              /* A0 = GP8; A_i = GP(ADDR_GPIO0 + i) */
+static const uint ADDR_GPIO[ADDR_LINES] = {8, 10, 12, 14, 15}; /* A_i = ADDR_GPIO[i] */
 #define ADDR_MAX     ((1u << ADDR_LINES) - 1u)   /* 31 */
 
 /* ── Path table: address -> human-readable name (matches burned EEPROM) ── */
@@ -83,7 +83,7 @@ static const char *name_for(unsigned addr) {
 static void set_address(unsigned addr) {
     addr &= ADDR_MAX;
     for (unsigned i = 0; i < ADDR_LINES; i++)
-        gpio_put(ADDR_GPIO0 + i, (addr >> i) & 1u);
+        gpio_put(ADDR_GPIO[i], (addr >> i) & 1u);
     current_addr = (int)addr;
 
     const char *nm = name_for(addr);
@@ -91,7 +91,7 @@ static void set_address(unsigned addr) {
            addr, addr, nm ? nm : "(no defined path at this address)");
     printf("   Lines: ");
     for (int i = ADDR_LINES - 1; i >= 0; i--)          /* print A4..A0 */
-        printf("A%d(GP%d)=%u  ", i, ADDR_GPIO0 + i, (addr >> i) & 1u);
+        printf("A%d(GP%d)=%u  ", i, ADDR_GPIO[i], (addr >> i) & 1u);
     putchar('\n');
 }
 
@@ -137,9 +137,9 @@ int main(void) {
 
     /* Configure A0..A4 as outputs, default LOW (address 0 = LNA->Feed). */
     for (unsigned i = 0; i < ADDR_LINES; i++) {
-        gpio_init(ADDR_GPIO0 + i);
-        gpio_set_dir(ADDR_GPIO0 + i, GPIO_OUT);
-        gpio_put(ADDR_GPIO0 + i, 0);
+        gpio_init(ADDR_GPIO[i]);
+        gpio_set_dir(ADDR_GPIO[i], GPIO_OUT);
+        gpio_put(ADDR_GPIO[i], 0);
     }
 
     while (!stdio_usb_connected()) sleep_ms(100);

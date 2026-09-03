@@ -1,5 +1,5 @@
 program_paths/CMakeFiles/select_path.dir/select_path.c.o: \
- /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/program_paths/select_path.c \
+ /Users/cgtolley/Desktop/elsie/eeprom_api/program_paths/select_path.c \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
@@ -34,9 +34,9 @@ program_paths/CMakeFiles/select_path.dir/select_path.c.o: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/generated/pico_base/pico/version.h \
+ /Users/cgtolley/Desktop/elsie/eeprom_api/build/generated/pico_base/pico/version.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/cgtolley/Desktop/elsie/pico-sdk/eeprom_api/build/generated/pico_base/pico/config_autogen.h \
+ /Users/cgtolley/Desktop/elsie/eeprom_api/build/generated/pico_base/pico/config_autogen.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/boards/include/boards/pico2.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/cgtolley/Desktop/elsie/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
