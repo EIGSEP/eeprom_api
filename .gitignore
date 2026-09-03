@@ -1,0 +1,2 @@
+# CMake build output (do not track machine-specific artifacts)
+build/
